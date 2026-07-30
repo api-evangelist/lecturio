@@ -1,24 +1,89 @@
 aid: lecturio
 name: Lecturio
-description: 'Lecturio is a company surfaced as a portfolio company of hv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai-enterprise-software. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Lecturio is a medical and nursing education technology company headquartered in Leipzig,
+  Germany (Lecturio GmbH), serving more than 500,000 learners and educators across 175+ countries. The
+  platform combines video lectures, concept pages, spaced-repetition quizzes, and AI-tutored question
+  banks covering 20+ preclinical and clinical subjects, with exam preparation for USMLE, NBME, COMLEX,
+  MCAT, PANCE, NCLEX-RN, and international licensure exams such as the Saudi SNLE. Alongside the direct-to-student
+  Lecturio Medical and Lecturio Nursing products, the company sells institutional platforms to medical
+  schools, nursing schools, hospitals, and residency programs under the Healer (clinical reasoning),
+  SimTutor (simulation authoring), and SIMTICS (procedural simulation) brands. Lecturio publishes no
+  public developer API or developer portal; its public machine-readable surface consists of an RFC 9116
+  security.txt, a self-managed vulnerability disclosure policy, and a Rank Math generated llms.txt.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.lecturio.com/assets/lecturio_logo_ocean.svg
 url: https://raw.githubusercontent.com/api-evangelist/lecturio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - hv-capital
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: no-public-api
+x-tier-reason: 'Enrichment pass 2026-07-19 confirmed Lecturio publishes no developer portal, API
+  documentation, OpenAPI/AsyncAPI spec, SDK, or public API host. Real public artifacts harvested:
+  RFC 9116 security.txt, vulnerability disclosure policy, llms.txt.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ai Enterprise Software
+- Education
+- EdTech
+- Medical Education
+- Nursing Education
+- E-Learning
+- Healthcare
+- Exam Preparation
+- Simulation
 apis: []
+common:
+- type: Website
+  url: https://www.lecturio.com/
+- type: Support
+  url: https://lecturio-medical.zendesk.com/hc/
+- type: Blog
+  url: https://www.lecturio.com/student-blog/
+- type: GitHubOrganization
+  url: https://github.com/lecturio
+- type: Pricing
+  url: https://www.lecturio.com/pricing/
+- type: SignUp
+  url: https://app.lecturio.com/
+- type: Login
+  url: https://app.lecturio.com/en/login
+- type: TermsOfService
+  url: https://www.lecturio.com/termsofuse/
+- type: PrivacyPolicy
+  url: https://www.lecturio.com/dataprotection/
+- type: Security
+  url: https://www.lecturio.com/vulnerability-disclosure/
+- type: SecurityTxt
+  url: well-known/lecturio-security.txt
+- type: WellKnown
+  url: well-known/lecturio-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/lecturio-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/lecturio-domain-security.yml
+- type: LLMsTxt
+  url: llms/lecturio-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
