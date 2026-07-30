@@ -1,0 +1,14 @@
+{
+  "repo": "lecturio",
+  "feeds": [
+    {
+      "source": "https://lecturio-medical.zendesk.com/hc/",
+      "feed_url": "https://lecturio-medical.zendesk.com/hc/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}

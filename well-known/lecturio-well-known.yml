@@ -1,0 +1,29 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of /.well-known/ on Lecturio public hosts
+hosts:
+- host: https://www.lecturio.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    content_type: text/plain
+    file: lecturio-security.txt
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://app.lecturio.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+notes: >-
+  Lecturio publishes a single well-known document: an RFC 9116 security.txt at the apex marketing host.
+  There is no OpenID Connect discovery document, no RFC 8414 authorization-server metadata, no RFC 9727
+  api-catalog, and no ai-plugin.json, consistent with Lecturio operating no public developer API. The
+  learner application host app.lecturio.com serves no well-known documents.

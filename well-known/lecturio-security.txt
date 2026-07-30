@@ -1,0 +1,16 @@
+# --- Official Security Disclosure Policy ---
+
+# 1. How to reach us
+Contact: mailto:security@lecturio.com
+
+# 2. Our full disclosure policy
+Policy: https://www.lecturio.com/vulnerability-disclosure
+
+# 3. Preferred Languages
+Preferred-Languages: en
+
+# 4. Expiration Date 
+Expires: 2027-07-09T00:00:00Z
+
+# 5. Canonical location of this file
+Canonical: https://www.lecturio.com/.well-known/security.txt
