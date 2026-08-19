@@ -31,7 +31,7 @@ x-tier: no-public-api
 x-tier-reason: 'Enrichment pass 2026-07-19 confirmed Lecturio publishes no developer portal, API
   documentation, OpenAPI/AsyncAPI spec, SDK, or public API host. Real public artifacts harvested:
   RFC 9116 security.txt, vulnerability disclosure policy, llms.txt.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
