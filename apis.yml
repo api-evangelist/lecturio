@@ -10,6 +10,17 @@ description: 'Lecturio is a medical and nursing education technology company hea
   SimTutor (simulation authoring), and SIMTICS (procedural simulation) brands. Lecturio publishes no
   public developer API or developer portal; its public machine-readable surface consists of an RFC 9116
   security.txt, a self-managed vulnerability disclosure policy, and a Rank Math generated llms.txt.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
