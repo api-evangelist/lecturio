@@ -64,30 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lecturio (Lecturio GmbH, Leipzig, Germany) is a medical and nursing education technology company serving
-more than 500,000 learners and educators across 175+ countries. The platform combines video lectures,
-concept pages, spaced-repetition quizzes, and AI-tutored question banks covering 20+ preclinical and
-clinical subjects, with exam preparation for USMLE, NBME, COMLEX, MCAT, PANCE, NCLEX-RN, and
-international licensure exams. Alongside the direct-to-student Lecturio Medical and Lecturio Nursing
-products, the company sells institutional platforms to medical schools, nursing schools, hospitals, and
-residency programs under the Healer, SimTutor, and SIMTICS brands.
+Lecturio is a medical and nursing education technology company headquartered in Leipzig, Germany (Lecturio GmbH), serving more than 500,000 learners and educators across 175+ countries. The platform combines video lectures, concept pages, spaced-repetition quizzes, and AI-tutored question banks covering 20+ preclinical and clinical subjects, with exam preparation for USMLE, NBME, COMLEX, MCAT, PANCE, NCLEX-RN, and international licensure exams such as the Saudi SNLE. Alongside the direct-to-student Lecturio Medical and Lecturio Nursing products, the company sells institutional platforms to medical schools, nursing schools, hospitals, and residency programs under the Healer (clinical reasoning), SimTutor (simulation authoring), and SIMTICS (procedural simulation) brands. Lecturio publishes no public developer API or developer portal; its public machine-readable surface consists of an RFC 9116 security.txt, a self-managed vulnerability disclosure policy, and a Rank Math generated llms.txt.
 
-Backed by: hv-capital
+**Areas:** Company · Ai Enterprise Software · Education · EdTech · Medical Education · Nursing Education · E-Learning · Healthcare · Exam Preparation · Simulation
 
-## API surface
+## Lecturio on APIs.io
 
-Lecturio publishes **no public developer API**. The enrichment pass on 2026-07-19 probed for and did not
-find a developer portal, API documentation, an OpenAPI/AsyncAPI specification, first-party SDKs on npm /
-PyPI / Packagist, a CLI, an MCP server, a status page, or a trust center. `api.lecturio.com`,
-`developer.lecturio.com`, `developers.lecturio.com`, and `docs.lecturio.com` all resolve to 404;
-`lecturio.statuspage.io` redirects to Atlassian marketing rather than a real status page.
+Everything profiled for Lecturio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lecturio/](https://apis.io/providers/lecturio/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-| Artifact | File | Method |
-|---|---|---|
-| security.txt (RFC 9116) | `well-known/lecturio-security.txt` | searched |
-| Well-known index | `well-known/lecturio-well-known.yml` | searched |
-| Vulnerability disclosure | `security/lecturio-vulnerability-disclosure.yml` | searched |
-| Domain security | `security/lecturio-domain-security.yml` | probed |
-| llms.txt | `llms/lecturio-llms.txt` | searched |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lecturio Domain Security](https://apis.io/security/lecturio/lecturio-domain-security/)
+- [Lecturio Vulnerability Disclosure](https://apis.io/security/lecturio/lecturio-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.lecturio.com/)
+- [Pricing](https://www.lecturio.com/pricing/)
+- [Sign up](https://app.lecturio.com/)
+- [Support](https://lecturio-medical.zendesk.com/hc/)
+- [Blog](https://www.lecturio.com/student-blog/)
+- [Security](https://www.lecturio.com/vulnerability-disclosure/)
+- [Terms of service](https://www.lecturio.com/termsofuse/)
+- [Privacy policy](https://www.lecturio.com/dataprotection/)
+- [GitHub](https://github.com/lecturio)
+
+## API Evangelist rating
+
+**Kin Score 16.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 38.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lecturio/](https://apis.io/providers/lecturio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lecturio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lecturio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
